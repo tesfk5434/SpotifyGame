@@ -1,6 +1,6 @@
 import './App.css'
 import logo from './assets/Spotify_logo.png';
-import SearchBar from './components/searchBar';
+import SearchBar from './components/searchBar.jsx';
 import {useEffect, useState} from 'react';
 async function getToken(){
   //fetch token data from backend
@@ -47,5 +47,4 @@ function App() {
     </>
   )
 }
-
 export default App
